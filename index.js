@@ -102,10 +102,13 @@ Baby.prototype.play = function () {
 /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Window binding, Not given a value so this defaults to browser window. Not the desired outcome.
+
+    3. Implicit Binding, when function invoked this indicates the function to the left of the .
+
+    2. Explicit Binding, .call which invoked function immediately passing in arguments 1 by 1, .apply which invokes the function immediately and passed in argument as array, .bind which does not immediately invoke the function but rather can be invoked later passing arguements in 1 by 1.
+
+    4. New Binding, when a new object is invoked with a constructor function this points to the newly created object.
   */
 
 ///////// END OF CHALLENGE /////////
